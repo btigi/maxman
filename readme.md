@@ -28,7 +28,21 @@ $ dotnet build
 
 Usage
 =====
-maxman is currently hardcoded during this early development phase, to make changes the source code must be edited and recompiled
+maxman is a command-line application and accepts a command line as below:
+
+```maxman command options```
+
+Where command is unpack 
+```maxman unpack --file resfile --dir outputdirectory```
+
+e.g. 
+```maxman --file D:\data\max.res --dir D:\data\unpacked```
+
+Where command is convert
+```maxman convert --infile graphicfile --pal palettefile --outfile outputfile```
+
+e.g. 
+```maxman convert --infile D:\data\unpacked\imagefile --pal D:\data\unpacked\snow.pal --outfile D:\data\unpacked\imagefile.bmp```
 
 
 Licencing

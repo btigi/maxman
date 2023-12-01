@@ -1,0 +1,10 @@
+M.A.X. Graphics Format
+======================
+
+Header
+============
+2	Height
+2	Width
+2	Hotspot X
+2	Hotspot Y
+x	Width * Height paletted bytes

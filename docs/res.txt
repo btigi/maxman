@@ -1,0 +1,21 @@
+M.A.X. RES File Format
+======================
+
+
+Header
+============
+4	Signature (RES0)
+4	File Listing offset
+4	File Listing size
+
+
+File Content
+============
+File content as raw bytes
+
+
+File Listing
+============
+8	Filename (no extension)
+4	Offset from start of file to File Content
+4	Length

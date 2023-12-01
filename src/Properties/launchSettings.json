@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "maxman": {
+      "commandName": "Project",
+      "commandLineArgs": " convert --infile D:\\_\\MAX\\out\\E_DEPOT --pal D:\\_\\MAX\\SNOW_6\\palette.dat --outfile D:\\_\\MAX\\aa.bmp"
+    }
+  }
+}
